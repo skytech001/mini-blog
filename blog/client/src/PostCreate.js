@@ -12,7 +12,7 @@ const PostCreate = () => {
     const res = await axios.post("http://localhost:4000/posts", {
       title,
     });
-    console.log(res.data);
+
     setTitle("");
   };
 
